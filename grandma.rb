@@ -18,7 +18,7 @@ def speak_to_grandma(phrase)
     # what is expected return "NO, NOT SINCE 1938!"
     #is what we are sying (phrase) all upppercased?
     
-  else if phrase == phrase.upcase
+  elseif phrase == phrase.upcase
     return "NO, NOT SINCE 1938!"
   else
     return "HUH?! SPEAK UP, SONNY!"
