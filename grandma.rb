@@ -10,7 +10,7 @@
 
 def speak_to_grandma(phrase)
   #if you say I LOVE YOU GRANDMA
-  if phrase == "I LOVE YOU GRANDMA"
+  if phrase == "I LOVE YOU GRANDMA!"
   #responds with "I LOVE YOU TOO PUMPKIN"
     return "I LOVE YOU TOO PUMPKIN!"
     
