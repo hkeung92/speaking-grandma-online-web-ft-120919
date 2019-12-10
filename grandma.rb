@@ -13,12 +13,7 @@ def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
   #responds with "I LOVE YOU TOO PUMPKIN"
     return "I LOVE YOU TOO PUMPKIN!"
-    
-    # phrase = "WHAT DID YOU EAT TODAY?"
-    # what is expected return "NO, NOT SINCE 1938!"
-    #is what we are sying (phrase) all upppercased?
-    
-  elseif phrase == phrase.upcase
+  elsif phrase == phrase.upcase
     return "NO, NOT SINCE 1938!"
   else
     return "HUH?! SPEAK UP, SONNY!"
